@@ -5,7 +5,6 @@ import transferRepeatableDOM from './repeat.js';
 
 export const transformers = [
   transformFileDOM,
-  transformCaptchaDOM,
   transferRepeatableDOM,
   applyRuleEngine,
 ];
@@ -14,6 +13,5 @@ export const asyncTransformers = [
 ];
 
 export const requestTransformers = [
-  transformCaptchaRequest,
   transformFileRequest,
 ];
